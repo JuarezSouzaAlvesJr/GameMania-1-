@@ -1,0 +1,249 @@
+@media screen and (max-width: 320px) {
+    .container-grid {
+        width: 100%;
+        max-width: 280px;
+    }
+    .header-tablet {
+        display: inline-block;
+    }
+    header {
+        display: none;
+    }
+    
+    .barra {
+        display: none;
+    }
+
+    .container-grid-tablet {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .menuSanduiche {
+        height: 200px;
+    }
+
+    .menuSanduiche a {
+        font-size: 14px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .itens-header-tablet {
+        width: 100%;
+        max-width: 280px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #txtBusca-tablet {
+        float: left;
+        padding-left: 15px;
+        font-size: 14px;
+        border: none;
+    }
+    
+    .divBusca-tablet {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 280px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .img-menu {
+        width: 24px;
+        height: 18px;
+    }
+    
+    .logo-tablet {
+        width: 80%;
+        max-width: 123px;
+    }
+    
+    .caixa-tablet {
+        width: 100%;
+        max-width: 232px;
+        height: 30px;
+    }
+    
+    .busca-tablet {
+        width: 100%;
+        max-width: 48px;
+        height: 30px;
+    }
+
+    .img-carrinho {
+        width: 15px;
+        height: 15px;
+    }
+
+    .img-lupa {
+        width: 14px;
+        height: 17px;
+    }
+
+    .carrossel {
+        width: 100%;
+        max-width: 320px;
+        height: 100px;
+    }
+
+    .title-section2 {
+        margin-top: 20px;
+        margin-left: 20px;
+        font: normal bold 18px 'Roboto';
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 280px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    .produto {
+        margin-bottom: 71px;
+        width: 280px;
+        height: 354px;
+        left: 20px;
+        top: 244px;
+    } 
+
+    .prod-align {
+        max-width: 280px;
+    }
+        
+
+    .produto a {
+        font-size: 18px;
+    }
+
+    .prod-align a img span button div {
+        max-width: 237px;
+    }
+
+    .preco {
+        font-size: 24px;
+    }
+    .parcela {
+        font-size: 16px;
+    }
+    
+    .comprar {
+        width: 171px;
+        height: 46px;
+        font-size: 20px;
+    }
+    
+    .carrinho {
+        width: 49px;
+        height: 46px;
+    }
+
+    .img-car {
+        width: 24px;
+        height: 24px;
+    }
+
+    .img-fluid {
+        width: 237px;
+    }
+
+    .int {
+        width: 220px;
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .segunda-secao {
+        display: none;
+    }
+
+    .bot-ver-mais {
+        margin-left: 63px;
+        margin-top: 60px;
+        align-items: center;
+        width: 194px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .footer {
+        width: 100%;
+        max-width: 320px;
+        height: 100%;
+        max-height: 2000px;
+    }
+
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margin-seg {
+        margin-top: 42px;
+    }
+    .cont1 {
+        margin-top: 50px;
+        width: 100%;
+        max-width: 280px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-title-footer {
+        margin-top: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .img-pag1 {
+        width: 80%;
+        max-width: 119px; 
+        max-height: 18px;
+    }
+    .img-pag2 { 
+        width: 80%;
+        max-width: 27px; 
+        max-height: 30px;
+    }
+    .img-pag3 {
+        width: 80%;
+        max-width: 42px; 
+        max-height: 22px;
+    }
+
+    .img-seg1 {width: 80%; max-width: 59px; max-height: 27px;}
+    .img-seg2 {width: 80%; max-width: 34px; max-height: 34px;}
+    .img-seg3 {width: 80%; max-width: 80px; max-height: 22px;}
+    .img-seg4 {width: 80%; max-width: 38px; max-height: 50px;}
+
+    .img-midias {
+        width: 25px;
+        width: 25px;
+    }
+
+    .text-inf-footer {font-size: 14px;}
+    .linkFooter {font-size: 14px;}
+
+    .list-footer {
+        text-align: center;
+    }
+   
+    .section-footer {
+        margin-bottom: 30px;
+        align-items: center;
+        
+    }
+
+    .cont2 {margin-top: 100px;}
+}

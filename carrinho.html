@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameMania</title>
+    <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container-grid cabecalho">
+            <a href="index.html"><img src="img/gamemanialogo(pequeno).png" class="logo" alt="logomarca da GameMania"></a>
+            <form>
+                <div class="divBusca">
+                    <form action="">
+                        <input type="text" id="produto-buscado" class="caixa" class="txtBusca" placeholder="busque aqui">
+                        <button class="busca" onclick="buscarProduto()"><img src="img/lupa(pequeno).png" alt="lupa"></button>
+                    </form>
+                </div>
+            </form>
+                <div class="login"><img src="img/login(40x40).png" class="iconeLogin" alt="login ou cadastro"><a href="loginCadastro.html" class="linklogin"><span>Faça login ou se cadastre</span></a></div>
+                <a href=""><img src="img/favoritos(40x40).png" class="favoritos" alt="ícone de favoritos"></a>
+                <a href=""><img src="img/carrinho(40x40).png" class="cesto" alt="carrinho"></a>
+        </div>
+    </header>
+
+    <h1>Carrinho</h1>
+    <h2>Produto adicionado ao carrinho</h2>
+    <a href="#"><img src="img/produto.png" alt="imagem-produto"></a><a href="#">Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB</a><div><span>R$ 3.561,00</span> <small> à vista</small></div><div>12x de <span>R$ 296,75</span> <small> sem juros</small></div>
+    <label for="number-example">Qual o seu CEP?</label>
+    <input type="number" id="number-example"><button>Calcular</button>
+    <br><br>
+    <button>Fechar pedido</button>
+
+    <footer class="footer">
+        <div class="container-grid DivFooter">
+            <div class="cont">
+                <div class="itens-pag">
+                    <div class="text-title-footer">Formas de pagamento</div>
+                    <img src="img/formas de pagamento/cartoes-forma-de-pagamento 1.png" class="img-pag1" alt="">
+                    <img src="img/formas de pagamento/pix(sem fundo) 1.png" class="img-pag2" alt="">
+                    <img src="img/formas de pagamento/boleto-icone-branco 1.png" class="img-pag3" alt="">
+                </div>
+                <div>
+                    <div class="text-title-footer text-seg">Segurança</div>
+                    <div class="itens-seg">
+                        <a href="#"><img src="img/segurança/certificadoRA1000 1.png" class="img-seg1" alt=""></a>
+                        <a href="#"><img src="img/segurança/103388 1.png" class="img-seg2" alt=""></a>
+                        <a href="#"><img src="img/segurança/googlesiteseguro 1.png" class="img-seg3" alt=""></a>
+                        <a href="#"><img src="img/segurança/excelente 1.png" class="img-seg4" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+            <div class="container-grid DivFooter">
+                <div class="cont1">
+                    <div class="section-footer">
+                        <div class="text-title-footer">Institucional</div>
+                        <ul class="list-footer">
+                            <li class="marcador"><a class="linkFooter" href="#">Quem somos</a></li>
+                            <li class="marcador"><a class="linkFooter" href="#">Termos e condições</a></li>
+                            <li class="marcador"><a class="linkFooter" href="#">Política de trocas e devoluções</a></li>
+                            <li class="marcador"><a class="linkFooter" href="#">Política de segurança e privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="section-footer">
+                        <div class="text-title-footer">Dúvidas</div>
+                        <ul class="list-footer">
+                            <li class="marcador"><a class="linkFooter" href="#">Como comprar</a></li>
+                            <li class="marcador"><a class="linkFooter" href="#">Prazos e entregas</a></li>
+                            <li class="marcador"><a class="linkFooter" href="#">Formas de pagamento</a></li>
+                            <li class="marcador"><a class="linkFooter" href="FaleConosco.html">Fale conosco</a></li>
+                        </ul>
+                    </div>
+                    <div class="section-footer">
+                        <div class="text-title-footer">Cliente</div>
+                        <ul class="list-footer">
+                            <li class="marcador"><a class="linkFooter" href="#">Minha conta</a></li>
+                            <li class="marcador"><a class="linkFooter" href="#">Meus pedidos</a></li>
+                            <li class="marcador"><a class="linkFooter" href="#">Meus tickets</a></li>
+                        </ul>
+                    </div>
+                    <div class="section-footer">
+                        <div class="text-title-footer">Mídias sociais</div>
+                        <div class="img-mid">
+                            <a href="#"><img src="img/midias sociais/instagram 2.png" class="img-midias" alt=""></a>
+                            <a href="#"><img src="img/midias sociais/facebook 2.png" class="img-midias" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <div>
+            <div class="cont2 container-grid">
+                <div>
+                    <div class="text-title-footer">Atendimento</div><br>
+                    <div class="text-inf-footer">
+                        Horário de atendimento: 08:00 às 20:00 - Segunda a Sábado, horário de Brasília
+                        <br>(exceto domingo e feriados)<br><strong>Endereço</strong>: Rua Lauro Braga, 1461 - 4° andar -
+                        Centro - Liberdade/SP - CEP: 00000-000<br><strong>Central SAC</strong>: (00)
+                        0000-0000<br><strong>E-mail</strong>: faleconosco@gamenania.com.br
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+    <script>
+        let menuSanduiche = document.getElementById("menuSanduiche");
+
+        function mostrarMenuSanduiche() {
+            if (getComputedStyle(menuSanduiche).display == "none") {
+                menuSanduiche.style.display = "flex";
+            } else {
+                menuSanduiche.style.display = "none";
+            }
+        }
+    </script>
+</html>
