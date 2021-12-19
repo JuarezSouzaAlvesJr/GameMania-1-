@@ -675,11 +675,12 @@ header {
     }
 
     .img-menu {
-        width: 80%;
+        width: 60%;
         min-width: 24px;
         max-height: 18px;
         max-width: 46px;
         max-height: 30px;
+        margin-top: 20px;
     }
     
     .logo-tablet {
@@ -708,11 +709,13 @@ header {
     }
     
     .img-carrinho {
-        width: 80%;
+        width: 90%;
+        height: 90%;
         min-width: 15px;
         min-height: 15px;
         max-width: 30px;
         min-height: 30px;
+        margin-top: 20px;
     }
 
     .img-lupa {   
