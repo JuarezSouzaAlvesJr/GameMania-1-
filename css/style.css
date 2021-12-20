@@ -52,7 +52,7 @@ header {
 }
 .caixa {
     width: 480px;
-    height: 60px;
+    height: 50px;
     border: 0;
 }
 .txtBusca {
@@ -63,8 +63,8 @@ header {
 }
 .busca {
     width: 100%;
-    max-width: 100px;
-    height: 60px;
+    max-width: 90px;
+    height: 50px;
     background-color: #66D07E;
     border: 0;
 }
@@ -73,13 +73,9 @@ header {
     background-color: #108747;
 }
 
-.lado-direito {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+.lupa {
+    width: 20%;
 }
-
 .login {
     max-width: 200px;
     height: 52px;
