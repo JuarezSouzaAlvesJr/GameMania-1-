@@ -527,6 +527,10 @@ header {
     #menuSanduiche {
         display: none;
     }
+
+    .footer-mobile {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) { 
@@ -534,6 +538,14 @@ header {
         display: none;
     }
     .conteudo-mobile {
+        display: inline-block;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-mobile {
         display: inline-block;
     }
 
@@ -822,7 +834,14 @@ header {
         font-size: 14px;
     }
     
-    .footer {
+    .footer-mobile {
+        margin-top: 91px;
+        background-color: #121212;
+        width: 100%;
+        height: 750px;
+    }
+
+    .footer-mobile {
         width: 100%;
         max-width: 768px;
         height: 100%;
@@ -874,6 +893,10 @@ header {
         text-align: center;
     }
 
+    .linha {
+        color: white;
+        width: 100%;
+    }
     .img-pag1 {
         width: 70%;
         max-width: 397px; 
@@ -904,11 +927,17 @@ header {
 
 
     .section-footer {
+        width: 100%;
         margin-bottom: 60px;
         text-align: center;
         align-items: center;
     }
     
+    .section-footer1 {
+        margin-bottom: 60px;
+        text-align: center;
+        align-items: center;
+    }
     .cont2 {
         margin-top: 100px;
     }
