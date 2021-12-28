@@ -453,7 +453,7 @@ header {
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .img-mid {
@@ -946,7 +946,7 @@ header {
     }
     
     .section-footer1 {
-        margin-bottom: 120px;
+        margin-bottom: 60px;
         text-align: center;
         align-items: center;
     }
