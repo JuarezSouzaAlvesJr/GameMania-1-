@@ -956,7 +956,6 @@ header {
 
     .cont {
         margin-top: 32px;
-        width: 80%;
         min-width: 278px;
         max-width: 578px;
         display: flex;
@@ -964,12 +963,11 @@ header {
         align-items: center;
     }
     .itens-seg {
-        width: 80%;
         min-width: 278px;
         max-width: 548px;
         display: flex;
-    justify-content: space-around;
-    align-items: center;
+        justify-content: space-around;
+        align-items: center;
     }
     .DivFooter {
         display: flex;
