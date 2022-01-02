@@ -180,6 +180,15 @@ header {
     background-color: #7093C7;
     position: relative;
 }
+
+.btn-dep {
+    border: none;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
 .menu {
     width: 100%;
     display: flex;
@@ -718,7 +727,6 @@ header {
         width: 100%;
         min-width: 123px;
         max-width: 302px;
-        height: 100%;
     }
     
     .caixa-tablet {
@@ -946,7 +954,7 @@ header {
     }
     
     .section-footer1 {
-        margin-bottom: 60px;
+        margin-bottom: 80px;
         text-align: center;
         align-items: center;
     }
