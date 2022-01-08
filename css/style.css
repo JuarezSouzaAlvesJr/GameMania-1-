@@ -283,6 +283,33 @@ header {
     text-transform: uppercase;
     font: bold bold 36px 'Roboto'
 }
+
+/* estilos referentes a páginas acessórias */
+.informUsuario {
+    margin-top: 120px;
+    padding: 20px;
+    width: 60%;
+}
+
+.inform {
+    margin-top: 120px;
+    padding: 20px;
+    width: 60%;
+}
+
+.duvidas {
+    margin-top: 120px;
+    padding: 20px;
+    width: 60%;
+}
+
+.pagCarrinho {
+    margin-top: 120px;
+    padding: 20px;
+    width: 60%;
+}
+
+/* voltando para os estilos da página principal */
 .produto {
     width: 100%;
     max-width: 260px;
